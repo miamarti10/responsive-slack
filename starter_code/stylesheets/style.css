@@ -5,3 +5,73 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@media (max-width: 768px) {}
+
+body {
+
+    width: 768px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+nav i {
+    margin: 2%;
+    align-items: baseline;
+    border: solid;
+
+
+}
+nav img {
+
+    width: 100px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+header h1 {
+order: 2;
+font-weight: bolder;
+font-size: 40px;
+
+}
+
+.paragraph1 {
+    order: 1;
+    font-size: 20px;
+
+}
+
+#first {
+
+    width: 45%;
+    background-color: #4049AA;
+    height: 45px;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+}
+
+#second {
+
+    width: 45%;
+    background-color: white;
+    height: 45px;
+    align-self: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: grey;
