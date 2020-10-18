@@ -6,7 +6,7 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 body {
 
@@ -94,6 +94,19 @@ header img {
     border:solid 1px;
     margin: 10px;
 
+}
+
+@media screen and (max-width:961px > 768px;) {
+
+    #first{
+
+        width: 60%;
+        background-color: green;
+    }
+     #second {
+        width: 20%;
+        background-color: green;
+     }
 }
 
 body > header > .sign {
