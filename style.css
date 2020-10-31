@@ -44,14 +44,16 @@ nav grey: #5b5e6d;
 
     header h1 {
         order: 0;
-        font-weight: 900;
-        font-size: 60px;
+        font-weight: bold;
+        font-size: 90px;
+       margin-bottom: 10px;
 
     }
 
     .paragraph1 {
         order: 0;
         font-size: 35px;
+        
     }
 
     header img {
@@ -171,7 +173,7 @@ nav grey: #5b5e6d;
 
 
 
-    main>#sign {
+    main> #sign {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -184,16 +186,6 @@ nav grey: #5b5e6d;
         flex-direction: column;
     }
 
-    #sign>p:first-child {
-
-        margin-top: 50px;
-        margin-bottom: 10px;
-        font-size: 35px;
-        text-align: center;
-        font-weight: bold;
-
-    }
-
     #sign>p {
 
         margin-top: 10px;
@@ -203,7 +195,7 @@ nav grey: #5b5e6d;
 
     }
 
-    #sign #second1 {
+    #second1 {
 
         width: 80%;
         height: 80px;
@@ -218,7 +210,7 @@ nav grey: #5b5e6d;
 
     }
 
-    #sign #first2 {
+    #first2 {
 
         width: 80%;
         height: 80px;
@@ -291,5 +283,112 @@ nav grey: #5b5e6d;
 
         display: flex;
         flex-direction: row;
+        margin-right: 150px;
 
     }
+
+    
+
+    #first {
+
+        width: 35%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #4049AA;
+        align-self: center;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        margin: 5px;
+        border: solid 1px;
+
+    }
+
+    #second {
+
+        width: 100%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: white;
+        align-self: center;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        border: solid 1px;
+        margin: 10px;
+
+    }
+
+    #company>button {
+
+        width: 30%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 900;
+        align-self: center;
+        border: solid 1px;
+        background-color: white;
+        font-family: 'Lato', sans-serif;
+        color: #4049AA;
+    }
+
+
+    #company_images {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+
+    #company_images img {
+
+        display: flex; 
+        flex-basis: calc(35% - 40px);  
+        justify-content: center;
+        flex-direction: column;
+        padding: 60px;
+    }
+
+    #sign {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        border: solid;
+
+    }
+
+    .bloque_cajas_2 {
+        border: solid;
+    
+    }
+
+    #second1 {
+
+        width: 35%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: white;
+        align-self: center;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        border: solid 1px;
+        margin: 10px;
+    }
+
+    #first2 {
+
+        width: 30%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #4049AA;
+        align-self: center;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        margin: 5px;
+        border: solid 1px;
