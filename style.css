@@ -51,7 +51,8 @@ nav grey: #5b5e6d;
     }
 
     .paragraph1 {
-        order: 0;
+    
+        left: 50%;
         font-size: 35px;
         
     }
@@ -59,8 +60,7 @@ nav grey: #5b5e6d;
     header img {
 
         align-items: center;
-        width: 100%;
-        width: 100%;
+        width: 30%
 
     }
 
@@ -276,16 +276,19 @@ nav grey: #5b5e6d;
         display: flex;
     }
 
+    .bloqueFlex{
+        display: flex;
+        flex-direction: column;
+    }
 
-@media screen and (min-width: 768px) {
+
+@media (min-width: 962px) and (max-width: 1024px) {
 
     .bloque_cajas_1{
 
         display: flex;
         flex-direction: row;
         margin-right: 150px;
-    
-
     }
 
     #first {
@@ -352,20 +355,21 @@ nav grey: #5b5e6d;
         padding: 60px;
     }
 
-    #sign {
+    .bloqueFlex{
+
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        border: solid;
+    }
+
+    #sign{
+        width: 100%;
 
     }
 
-    .bloque_cajas_2 {
-        display: flex;
-        flex-direction: row;
-        margin-right: 150px;
-    
-    
+
+    .bloque_cajas_2, button {
+        display: inline;
+        width: 100%;
     }
 
     #second1 {
@@ -396,4 +400,117 @@ nav grey: #5b5e6d;
         border: solid 1px;
     }
 }
-    
+
+@media (min-width: 1024px) {
+
+
+    #first {
+
+        width: 35%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #4049AA;
+        align-self: center;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        margin: 5px;
+        border: solid 1px;
+
+    }
+
+    #second {
+
+        width: 100%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: white;
+        align-self: center;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        border: solid 1px;
+        margin: 10px;
+
+    }
+
+    #company>button {
+
+        width: 30%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: 900;
+        align-self: center;
+        border: solid 1px;
+        background-color: white;
+        font-family: 'Lato', sans-serif;
+        color: #4049AA;
+    }
+
+
+    #company_images {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+
+    #company_images img {
+
+        display: flex; 
+        flex-basis: calc(25% - 40px);  
+        justify-content: center;
+        flex-direction: column;
+        padding: 90px;
+    }
+
+    .bloqueFlex{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sign{
+        width: 100%;
+
+    }
+
+
+    .bloque_cajas_2, button {
+        display: inline;
+        width: 100%;
+    }
+
+    #second1 {
+
+        width: 35%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: white;
+        align-self: center;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        border: solid 1px;
+        margin: 10px;
+    }
+
+    #first2 {
+
+        width: 30%;
+        height: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #4049AA;
+        align-self: center;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        margin: 5px;
+        border: solid 1px;
+    }
+}
+
